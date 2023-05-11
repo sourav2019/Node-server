@@ -1,0 +1,14 @@
+{
+  "name": "raw-node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Sourav Saha",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --ignore data/ --exec node app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
